@@ -9,10 +9,10 @@
       "type": "n8n-nodes-base.executeWorkflowTrigger",
       "typeVersion": 1.1,
       "position": [
-        -1104,
-        16
+        -224,
+        112
       ],
-      "id": "e43b4d7c-a633-4395-85fe-d5ece987756b",
+      "id": "85fde040-912f-417a-8e08-bc165fdbf1d4",
       "name": "When Executed by Another Workflow"
     },
     {
@@ -22,32 +22,32 @@
         "operation": "list",
         "owner": {
           "__rl": true,
-          "value": "tobiaszwingmann",
+          "value": "code2dhruv",
           "mode": "list",
-          "cachedResultName": "tobiaszwingmann",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann"
+          "cachedResultName": "code2dhruv",
+          "cachedResultUrl": "https://github.com/code2dhruv"
         },
         "repository": {
           "__rl": true,
-          "value": "build_AI_agents_with-n8n-4103420-main",
+          "value": "build_AI_agents_with-n8n-4103420",
           "mode": "list",
-          "cachedResultName": "build_AI_agents_with-n8n-4103420-main",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann/build_AI_agents_with-n8n-4103420-main"
+          "cachedResultName": "build_AI_agents_with-n8n-4103420",
+          "cachedResultUrl": "https://github.com/code2dhruv/build_AI_agents_with-n8n-4103420"
         },
         "filePath": "tools/quotes/template"
       },
       "type": "n8n-nodes-base.github",
       "typeVersion": 1.1,
       "position": [
-        -880,
-        -96
+        0,
+        0
       ],
-      "id": "d8534cb0-d727-467a-b896-d26f5c615f9b",
+      "id": "16c1fd8a-7a2c-47f6-8653-5efb198828e0",
       "name": "List files",
       "webhookId": "ee869df5-4ad0-43ef-8282-c93f4978647c",
       "credentials": {
         "githubOAuth2Api": {
-          "id": "rqkMAdMVwbOGDQB4",
+          "id": "8eU4kVvmZ9fDALmi",
           "name": "GitHub account"
         }
       }
@@ -59,17 +59,17 @@
         "operation": "get",
         "owner": {
           "__rl": true,
-          "value": "tobiaszwingmann",
+          "value": "code2dhruv",
           "mode": "list",
-          "cachedResultName": "tobiaszwingmann",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann"
+          "cachedResultName": "code2dhruv",
+          "cachedResultUrl": "https://github.com/code2dhruv"
         },
         "repository": {
           "__rl": true,
-          "value": "build_AI_agents_with-n8n-4103420-main",
+          "value": "build_AI_agents_with-n8n-4103420",
           "mode": "list",
-          "cachedResultName": "build_AI_agents_with-n8n-4103420-main",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann/build_AI_agents_with-n8n-4103420-main"
+          "cachedResultName": "build_AI_agents_with-n8n-4103420",
+          "cachedResultUrl": "https://github.com/code2dhruv/build_AI_agents_with-n8n-4103420"
         },
         "filePath": "={{ $json.path }}",
         "asBinaryProperty": false,
@@ -78,15 +78,15 @@
       "type": "n8n-nodes-base.github",
       "typeVersion": 1.1,
       "position": [
-        -656,
-        -96
+        224,
+        0
       ],
-      "id": "f8fd19ea-b130-45ff-80fb-12129f84bcb1",
+      "id": "f3f06890-9181-46d4-8a16-f20a92bec255",
       "name": "Get a file",
       "webhookId": "d27df519-362c-47f6-9b1c-b633d15bb7ef",
       "credentials": {
         "githubOAuth2Api": {
-          "id": "rqkMAdMVwbOGDQB4",
+          "id": "8eU4kVvmZ9fDALmi",
           "name": "GitHub account"
         }
       }
@@ -101,14 +101,14 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -432,
-        -96
+        448,
+        0
       ],
-      "id": "d26f0db4-363e-4048-b66e-6c8b45e119b4",
+      "id": "697ebaed-a993-4e33-847a-a600b774260e",
       "name": "HTTP Request",
       "credentials": {
         "githubOAuth2Api": {
-          "id": "rqkMAdMVwbOGDQB4",
+          "id": "8eU4kVvmZ9fDALmi",
           "name": "GitHub account"
         }
       }
@@ -118,10 +118,10 @@
       "type": "n8n-nodes-base.merge",
       "typeVersion": 3.2,
       "position": [
-        -208,
-        16
+        672,
+        112
       ],
-      "id": "6273c0ea-defe-4707-af49-c2695f2dc684",
+      "id": "7872f581-8d9a-4cfc-91c6-27fd993fd992",
       "name": "Merge"
     },
     {
@@ -131,10 +131,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -432,
-        112
+        448,
+        208
       ],
-      "id": "14682140-980b-423f-96d9-27cbfeb2b814",
+      "id": "50f9dfff-b46e-4cec-9e7d-5198462e783d",
       "name": "Define variables"
     },
     {
@@ -144,10 +144,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        16,
-        16
+        896,
+        112
       ],
-      "id": "5c40b392-9880-4049-b34a-12f97ca186a2",
+      "id": "cc9292a5-1374-4c3d-b1cd-63e3104ab74e",
       "name": "Update Quote"
     },
     {
@@ -156,17 +156,17 @@
         "resource": "file",
         "owner": {
           "__rl": true,
-          "value": "tobiaszwingmann",
+          "value": "code2dhruv",
           "mode": "list",
-          "cachedResultName": "tobiaszwingmann",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann"
+          "cachedResultName": "code2dhruv",
+          "cachedResultUrl": "https://github.com/code2dhruv"
         },
         "repository": {
           "__rl": true,
-          "value": "build_AI_agents_with-n8n-4103420-main",
+          "value": "build_AI_agents_with-n8n-4103420",
           "mode": "list",
-          "cachedResultName": "build_AI_agents_with-n8n-4103420-main",
-          "cachedResultUrl": "https://github.com/tobiaszwingmann/build_AI_agents_with-n8n-4103420-main"
+          "cachedResultName": "build_AI_agents_with-n8n-4103420",
+          "cachedResultUrl": "https://github.com/code2dhruv/build_AI_agents_with-n8n-4103420"
         },
         "filePath": "=tools/quotes/new/{{ $('Define variables').first().json.quote_id}}.html",
         "fileContent": "={{ $json.html }}",
@@ -175,15 +175,15 @@
       "type": "n8n-nodes-base.github",
       "typeVersion": 1.1,
       "position": [
-        240,
-        16
+        1120,
+        112
       ],
-      "id": "1e143a70-3320-427d-ac8d-495abb99b54a",
+      "id": "6b233a3d-c979-4efa-8965-3b2e850696ca",
       "name": "Create a file",
       "webhookId": "d27df519-362c-47f6-9b1c-b633d15bb7ef",
       "credentials": {
         "githubOAuth2Api": {
-          "id": "rqkMAdMVwbOGDQB4",
+          "id": "8eU4kVvmZ9fDALmi",
           "name": "GitHub account"
         }
       }
@@ -205,31 +205,13 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        464,
-        16
+        1344,
+        112
       ],
-      "id": "0ea23f94-02cd-4098-80a1-c6b4fe4b5b5d",
+      "id": "77684df0-5c1e-4975-9aa9-9823c9fc5179",
       "name": "Edit Fields"
     }
   ],
-  "pinData": {
-    "When Executed by Another Workflow": [
-      {
-        "json": {
-          "type": "inline",
-          "size_sqft": 100,
-          "price_per_sqft": 55,
-          "registration_fee": 800,
-          "subtotal": 5500,
-          "total": 6300,
-          "client_name": "Acme Industries",
-          "client_company": "Acme Corp",
-          "client_email": "contact@acmecorp.com",
-          "client_phone": "(555) 123-4567"
-        }
-      }
-    ]
-  },
   "connections": {
     "When Executed by Another Workflow": {
       "main": [
@@ -325,14 +307,31 @@
       ]
     }
   },
-  "active": false,
   "settings": {
-    "executionOrder": "v1"
+    "executionOrder": "v1",
+    "availableInMCP": false
   },
-  "versionId": "66ba6d41-fdb3-4c13-9b94-e17ce8102521",
+  "staticData": null,
+  "pinData": {
+    "When Executed by Another Workflow": [
+      {
+        "json": {
+          "type": "inline",
+          "size_sqft": 100,
+          "price_per_sqft": 55,
+          "registration_fee": 800,
+          "subtotal": 5500,
+          "total": 6300,
+          "client_name": "Acme Industries",
+          "client_company": "Acme Corp",
+          "client_email": "contact@acmecorp.com",
+          "client_phone": "(555) 123-4567"
+        }
+      }
+    ]
+  },
+  "triggerCount": 0,
   "meta": {
-    "instanceId": "94e1edcc34a91a151fc2ec1b99597068a304e37fdb946fc806f00f97776fce3a"
-  },
-  "id": "xv2TJBGsA6t0gsds",
-  "tags": []
+    "templateCredsSetupCompleted": true
+  }
 }
